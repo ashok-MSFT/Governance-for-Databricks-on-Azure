@@ -1,4 +1,4 @@
-This article is for existing and new customers planning to implement governance capabilities within an organization. Often organizations face challenges when it comes to data sharing (between teams, business units and across organizations), Implementing access controls, security and overall governance. Microsoft Purview and Azure Databricks together can offer wide range of capabilities to address some challenges.
+This article is for existing and new customers on Azure Databricks looking to uplift the platform capabilities. Often organizations face challenges when it comes to data sharing (between teams, business units and across organizations), Implementing access controls, security and overall governance. Microsoft Purview and Azure Databricks together can offer wide range of capabilities to address some challenges.
 
 Lets understand at high level about Microsoft Purview and Azure Databricks:
 
@@ -8,7 +8,8 @@ Azure Databricks:
 
 Both Together:
 
-Below are some of the key concepts which can be implemented in organizations for 
+Below are some of the key concepts which can be implemented by organizations for 
+
 
 SCIM Integration in Databricks:
 
@@ -18,7 +19,14 @@ Access Policies in Databricks workspace:
 
 Delta Sharing:
 
+Unity catalog:
+With unity catalog, customers can improve their security posture and centralize access 
+
 Integrating Microsoft Purview and Azure Databricks:
+
+Although, unity catalog provides the overall integration from 
+
+Currently,  Microsoft purview supports scanning databricks using legacy hive metastore and unity catalog. 
 
   We can automate Data discovery, curation and lineage. 
   Catalog all Data: Discover the inventory and organize your data assets.
